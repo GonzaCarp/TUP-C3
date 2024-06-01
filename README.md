@@ -1,31 +1,44 @@
-# TUP: Comisión 3
+# TP4 
 
-## Material de soporte para el dictado de clases 
-
-Este respositorio contiene el material de soporte para el dictado de las clases.
-
-Contiene código fuente, material de lectura, enunciados y el contenido de los trabajos prácticos.
-
+## App: Consultar Clima
 ---
 
-# Trabajo Práctico Nº 1
+Hacer una aplicacion que permita mostrar el clima actual en la ciudad elegida.
+- Debe tener enlaces para acceder directamente a las ciudades de "Tucuman", "Salta" y "Buenos Aires"
+- Debe permitir buscar cualquier ciudad
+- Debe mostrar 
+    - El nombre de la ciudad completo
+    - La temperatura actual, minima y maxima 
+    - La humedad actual
+    - Una imagen que represente el clima 
 
-Hacer una app en react que muestre una agenda de contactos
+Para hacer la aplicación recomendamos usar los siguientes recursos:
+- https://openweathermap.org/ 
+    Para consultar el API del clima
+    API -> "Current weather data" -> "Built-in API request by city name"
 
-1. La lista de contacto debe estar ingresado como una lista de objetos.
-2. Los contactos deben tener id, nombre, apellido y teléfono
-3. Los contactos se deben mostrar como una tarjeta de presentación
-4. Para presentar el trabajo debe:
+- https://picocss.com/
+    Para dar formato a la pagina
 
-    a. Bajar el repositorio del curso (clone)
+- https://bas.dev/work/meteocons 
+    Para los iconos animados que representa el clima actual.
+    (bajar archivo y buscar los iconos para openweathermap)
 
-    b. Crear una nueva rama (new branch)
+![Diseño](./practicos/00%20-%20Enunciados/clima.jpg)
+---
 
-    c. Abrir la carpeta que le corresponda a cada alumno (practicos/{alumno}/tp1)
-
-    d. Realizar los cambios en los archivos de muestra (no debe cambiar ninguna otra carpeta)
-
-    e. Confirmar los cambios (commit)
-
-    f. Realizar un solicitud de publicacion (pull request)
-
+> [!NOTE]
+>
+> **Instrucciones para la presentación del trabajo**
+> 
+> 1. Cambiar a la rama principal (main).
+> 2. Descargar la última versión del repositorio del curso (fetch).
+> 3. Crear una nueva rama para tus cambios (new branch) (TP4-{alumno}).
+> 4. Abrir la carpeta correspondiente a tu nombre de usuario (practicos/{alumno}/TP4).
+> 5. Realizar las modificaciones dentro de la carpeta TP4 (sin alterar ninguna otra carpeta).
+> 6. Confirmar los cambios (commit).
+> 7. Realizar una solicitud de publicación (pull request).
+> 8. Revisar que el pull request esté subido (solapa pull request en GitHub).
+> 9. Volver a la rama principal (main) para actualizar (fetch) el repositorio.
+>
+> *Los cambios no aparecerán en el repositorio principal hasta que se acepte el pull request el día del vencimiento del plazo para entregar el trabajo.*
